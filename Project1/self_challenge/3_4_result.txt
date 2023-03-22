@@ -1,0 +1,9 @@
+0: ph3=0, ph4=0, equ=01: pha3=1, ph4=0, equ=0
+2: pha3=2, ph4=0, equ=0
+3: pha3=3, ph4=0, equ=0
+4: pha3=3, ph4=1, equ=0
+5: pha3=4, ph4=1, equ=0
+6: pha3=4, ph4=1, equ=1
+7: pha3=4, ph4=1, equ=2
+8: pha3=5, ph4=1, equ=2
+8: ph3=5, ph3=1, equ=2

@@ -1,0 +1,28 @@
+x: 41.3045
+
+评估函数：
+x^0.5: 40.3970 106
+RADIUS / x^2: 41.2890
+x^2: 40.3605
+x^2.5: 39.4400
+x^3: 40.9150
+
+特判 score < 10 then lr = 2: 41.7475
+特判 score < 10 then lr = 2.5: 42.1435 42.7375
+特判 score < 10 then lr = 4: 41.2070
+特判 score < 0 then lr = 2: 41.9925 41.7780
+特判 score < 0 then lr = 3: 41.48251
+特判 score < 0 then lr = 4: 41.0845
+
+纵坐标-3.5~3.5: 42.1510
+
+纵坐标-3.5~3.5 + 特判 score < 0 then lr = 3
+
+特判 score < 0 then lr = 2 + x轴范围[-3.5,3.5] + sigmod下降
+tensor(41.5960)
+
+特判 score < 0 then lr = 2.25 + x轴范围[-3.5,3.5]
+tensor(41.4920)
+
+特判 score < 0 then lr = 2.5 + x轴范围[-3.5,3.5] + random时间0.24
+tensor(42.3495)

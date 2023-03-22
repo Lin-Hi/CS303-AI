@@ -1,0 +1,7 @@
+0: ph5=0, ph6=0, equ=01: pha5=1, ph6=0, equ=0
+2: pha5=2, ph6=0, equ=0
+3: pha5=3, ph6=0, equ=0
+4: pha5=4, ph6=0, equ=0
+5: pha5=5, ph6=0, equ=0
+6: pha5=6, ph6=0, equ=0
+6: ph5=6, ph6=0, equ=0
